@@ -1,0 +1,23 @@
+.heroGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding-top: 100px;
+  padding-left: 165px;
+  padding-right: 165px;
+}
+.heroImg {
+  grid-column: 1/3;
+  background-image: url(/assets/images/image-web-3-desktop.jpg);
+}
+.mainArticleTitle {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.mainArticleText {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.newArticles {
+  grid-row: 1/3;
+}
