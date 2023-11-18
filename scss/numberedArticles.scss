@@ -1,0 +1,36 @@
+.numberedArticles {
+  display: flex;
+  justify-content: space-between;
+  article {
+    display: flex;
+    width: 350px;
+    img {
+      width: 100px;
+    }
+    div {
+      padding-left: 24px;
+      .number {
+        margin-bottom: 13px;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 1;
+        color: hsl(233, 8%, 79%);
+      }
+      a {
+        font-size: 18px;
+        font-weight: 800;
+        color: hsl(240, 100%, 5%);
+        transition: color 0.13s ease-in-out;
+        &:hover {
+          color: hsl(5, 85%, 63%);
+        }
+      }
+      .text {
+        margin-top: 10px;
+        line-height: 1.7;
+        color: hsl(236, 13%, 42%);
+        margin-bottom: 0;
+      }
+    }
+  }
+}

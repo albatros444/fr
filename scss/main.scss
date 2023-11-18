@@ -1,7 +1,21 @@
 @import "globals";
 @import "footer";
+@import "heroGrid";
+@import "navbar";
+@import "numberedArticles";
 
 body {
+  display: flex;
+  justify-content: center;
   background-color: hsl(36, 100%, 99%);
+  padding-top: 88px;
+  padding-bottom: 130px;
+  overflow-x: hidden;
 }
-@import "heroGrid";
+.centerCont {
+  width: 1110px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+@import "mediaQs";

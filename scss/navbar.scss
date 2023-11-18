@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  .linksContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 436px;
+    a {
+      font-size: 16px;
+      align-self: center;
+      color: hsl(236, 13%, 42%);
+      transition: color 0.13s ease-in-out;
+      &:hover {
+        color: hsl(5, 85%, 63%);
+      }
+    }
+  }
+  .linksContainerMobile {
+    display: none;
+  }
+  .blackout {
+    display: none;
+  }
+  @import "hamburger";
+}
